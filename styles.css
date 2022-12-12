@@ -1,30 +1,30 @@
-body {
-    background-color: #ADBCC9;
+/* #logosvg {
+    display: flex;
+    align-items: center;
+} */
+
+#a_title {
+    display: inline;
+    font-size: 2.2rem !important;
+    font-weight: bolder;
 }
 
-#title {
-    margin-top: 2%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #40454A;
+
+
+#logosvg:hover,
+#logosvg:focus {
+    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+    animation: fadeIn 2s;
 }
 
-h4 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #ADBCC9;
-}
 
-button:hover {
-    color: #6c757d !important;
-}
 
-.row {
-    /* ,"m-4","d-flex","align-items-center"  */
-    display: flex !important;
-    align-items: center !important;
-    margin: 1.5rem !important;
-}
-
-    .card-img-top{
-        max-width: 100%;
-        height: auto;
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
     }
+
+    100% {
+        opacity: 1;
+    }
+}
