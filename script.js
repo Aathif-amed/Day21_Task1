@@ -11,7 +11,6 @@ document.body.append(div);
 let col = document.createElement("div");
 col.classList.add("col-6","my-5");
 
-let count = 0;
 
 let random = Math.floor(Math.random() * 6236);
 async function getData() {
