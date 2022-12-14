@@ -60,6 +60,7 @@ async function getData() {
         
         <div class="card-body text-center bg-transparent">
         <div class="card-text text-dark">Something Went Wrong</div>
+        <div class="card-text text-dark">Try by enabling insecure content in your site settings</div>
         <a onclick="load()" class="btn btn-lg btn-transparent"><i class="fa-solid fa-rotate-right"></i> Click to Refresh</a>
         
       </div>
